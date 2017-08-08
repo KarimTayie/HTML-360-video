@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Example</title>
+
+    </head>
+    <body>
+        <div id="vrview"></div>
+        <div id="controls">
+            <div id="toggleplay" class="paused"></div>
+            <div id="time">00:00 | 00:00</div>
+            <input id="volumerange" type="range" min="0" max="100" value="100"/>
+            <input type="button" value="play" onclick="vrView.play();" />
+            <input type="button" value="pause" onclick="vrView.pause();" />
+            <div id="togglemute"></div>
+            <div id="togglefullscreen"></div>
+        </div>
+        
+        <script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+        <script src="plugin.js"></script>
+        
+    </body>
+</html>
